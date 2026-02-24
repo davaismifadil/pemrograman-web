@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Halaman Pertama</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Halo, Dunia!</h1>
-    <p>Saya Doraemon.</p>
-    <img src="doraemon-and-dorayakis.webp" alt="doraemon">
+    <h1> Form Kehadiran Praktikan</h1>
 
-    <table border="2" cellpadding="10">
-        <tr>
-            <th>nama</th>
-            <th>npm</th>
-            <th>kelas</th>
-        </tr>
-        <tr>
-            <td>dava</td>
-            <td>2417052024</td>
-            <td>SI24</td>
-        </tr>
-    </table>
-    <form action="#">
-        <label for="nama">Masukkan nama</label>
-        <input type="text" placeholder="nama lengkap">
-        <input type="date" placeholder="nama lengkap">
-        <button type="submit">Simpan</button>
+    <form>
+        <label >nama : </label>
+        <input type="text" placeholder="Masukkan nama">
+        <br>
+        <br>
+        <label> NPM :</label>
+        <input type="number" placeholder="Masukkan NPM">
+        <br>
+        <br>
+        <label>Kelas :</label>
+        <select>
+            <option selected disabled hidden> pilih kelas</option>
+            <option> SI </option>
+            <option> Ilkom </option>
+        </select>
+        <br>
+        <br>
+        <label> Tanggal: </label>
+        <input type="date">
+        <br>
+        <br>
+        <label> Waktu: </label>
+        <input type="time">
+        <br>
+        <br>
+        <button>Submit</button>
     </form>
-
-    <a href="chatgpt.com">link Gacor</a>
-    <br>
-    <br>
-    <a href="#top">Ke Atas</a>
 </body>
 </html>
